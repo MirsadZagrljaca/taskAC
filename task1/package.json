@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine test.js",
-    "start": "node index.js"
+    "test": "npx mocha",
+    "start": "mocha && node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jasmine": "^4.0.2"
+  "dependencies": {
+    "mocha": "^9.2.1"
   }
 }

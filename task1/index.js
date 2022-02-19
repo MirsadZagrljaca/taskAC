@@ -7,6 +7,16 @@ let a = [
 ];
 
 function getNewStruct(oldStruct) {
+  if (typeof oldStruct !== "object") return "Not an Object!";
+
+  for (let i = 0; i < oldStruct.length; i++) {
+    if (oldStruct[i].value && oldStruct[i].id) {
+      continue;
+    } else {
+      return "Not a valid Array!";
+    }
+  }
+
   let newStruck = oldStruct.sort((a, b) =>
     a.value > b.value ? 1 : b.value > a.value ? -1 : 0
   );
@@ -35,10 +45,10 @@ function getNewStruct(oldStruct) {
   }
 
   oldStruct.push({ id: newId, value: newValue });
-  let struct=oldStruct.sort((a, b) =>
-  a.id > b.id ? 1 : b.id > a.id ? -1 : 0
-);
-  return oldStruct;
+  let struct = oldStruct.sort((a, b) =>
+    a.id > b.id ? 1 : b.id > a.id ? -1 : 0
+  );
+  return struct;
 }
 
 let b = getNewStruct(a);

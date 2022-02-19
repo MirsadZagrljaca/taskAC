@@ -18,8 +18,8 @@
 ### How to start algorithm
 
 - run "npm install"
-- run "npm start" to check example from task descriptions
-- run "npm run test" to check tests for this algorithm, first one is same example from description, second one is different just to be sure
+- run "npm start" to run tests and check example from task descriptions
+- run "npm test" to run tests for this algorithm, first one is same example from description, second one is different just to be sure
 
 ### File names and dependecies
 
@@ -30,6 +30,6 @@
 
 #### Dependencies
 
-- jasmine - testing tool I've decided to use
+- mocha - testing tool I've decided to use
 
 #### Thank You for checking my task. Enjoy!
