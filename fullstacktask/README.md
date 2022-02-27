@@ -29,6 +29,11 @@ I've built this app using MERN stack (MongoDb,Express js, Node js and React js),
 - Sidebar is form of navigation on app, just follow it to explore all features
 - Naming should be pretty self explanatory, as well as routes on both backend and frontend.
 
+#### To start it you should
+
+- cd client && npm install && npm start && open browser on http://localhost:5000/
+- cd server && npm install && npm start && open browser on http://localhost:3000/
+
 #### Thank you for considering me.
 
 #### Enjoy!
