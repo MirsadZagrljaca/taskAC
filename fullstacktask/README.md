@@ -31,8 +31,8 @@ I've built this app using MERN stack (MongoDb,Express js, Node js and React js),
 
 #### To start it you should
 
-- cd client && npm install && npm start && open browser on http://localhost:5000/
-- cd server && npm install && npm start && open browser on http://localhost:3000/
+- cd client && npm install && npm start && open browser on http://localhost:3000/
+- cd server && npm install && npm start
 
 #### Thank you for considering me.
 
