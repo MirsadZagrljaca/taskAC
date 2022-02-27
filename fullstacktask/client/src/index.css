@@ -1,0 +1,280 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #43404d;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff4b6b;
+  height: 10vh;
+}
+
+.header > h2 {
+  background-color: #ff4b6b;
+  font-size: 1.5rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 20vw;
+  height: 90vh;
+  background-color: #333136;
+}
+
+.sidebar-home {
+  background-color: #333136;
+  margin-top: 0rem;
+}
+
+.sidebar-home > button {
+  width: 100%;
+  border-radius: 0px;
+  background-color: #333136;
+  border-color: transparent;
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-home > button:hover {
+  background-color: #ff4b6b;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 50%;
+}
+
+.home > div {
+  text-align: center;
+  color: white;
+}
+
+.customers {
+  display: flex;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1rem;
+}
+
+.customers > div {
+  color: white;
+}
+
+.customers > div > div > input {
+  border-radius: 0px;
+}
+
+.customers > div > div > input:focus {
+  border-color: #ff4b6b;
+  box-shadow: 0 1px 1px #ff4b6b inset, 0 0 8px #ff4b6b;
+  outline: 0 none;
+}
+
+.customers > div > h2 {
+  text-align: center;
+}
+
+.customers > div > table {
+  border: 1px solid #ff4b6b;
+  margin-bottom: 0.5rem;
+}
+
+.customers > div > table > thead {
+  border: 1px solid #ff4b6b;
+}
+
+.customers > div > table > thead > tr > th {
+  border: 1px solid #ff4b6b;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.customers > div > table > tbody > tr > td {
+  border: 1px solid #ff4b6b;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.customers > div > button {
+  width: 100%;
+  background-color: #ff4b6b;
+  border-color: #ff4b6b;
+  border-radius: 0px;
+}
+
+.add-customer {
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1rem;
+}
+
+.add-customer > div {
+  width: 100%;
+  text-align: center;
+}
+
+.add-customer > div > div > input {
+  border-radius: 0px;
+}
+
+.add-customer > div > div > input:focus {
+  border-color: #ff4b6b;
+  box-shadow: 0 1px 1px #ff4b6b inset, 0 0 8px #ff4b6b;
+  outline: 0 none;
+}
+
+.add-customer > div > h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.add-buttons {
+  display: block;
+}
+
+.add-buttons > button {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 0px;
+}
+
+.programs {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.programs-single {
+  width: 100%;
+  border: 1px solid #ff4b6b;
+  padding: 0.5rem;
+}
+
+.programs-single-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.programs-single-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.steps:last-child > p > span {
+  display: none;
+}
+
+.add-program {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.add-program > div > h2 {
+  text-align: center;
+  color: white;
+}
+
+.add-program > div > div > input {
+  border-radius: 0px;
+}
+
+.add-program > div > div > input:focus {
+  border-color: #ff4b6b;
+  box-shadow: 0 1px 1px #ff4b6b inset, 0 0 8px #ff4b6b;
+  outline: 0 none;
+}
+
+.add-program > div > div > div > button {
+  background-color: white;
+  color: #ff4b6b;
+  border-color: #ff4b6b;
+}
+
+.add-program > div > div > div > button:hover {
+  background-color: #43404d;
+  color: white;
+  border-color: #ff4b6b;
+}
+
+.services {
+  display: flex;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1rem;
+  color: white;
+}
+
+.services > div > h2 {
+  text-align: center;
+}
+
+.services > div > table {
+  border: 1px solid #ff4b6b;
+  margin-bottom: 0.5rem;
+  margin-left: 25%;
+}
+
+.services > div > table > thead {
+  border: 1px solid #ff4b6b;
+}
+
+.services > div > table > thead > tr > th {
+  border: 1px solid #ff4b6b;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.services > div > table > tbody > tr > td {
+  border: 1px solid #ff4b6b;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.add-service {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1rem;
+}
+
+.add-service > div > h2 {
+  text-align: center;
+  color: white;
+}
+
+.add-service > div > div > input {
+  border-radius: 0px;
+}
+
+
+.add-service > div > div > input:focus {
+  border-color: #ff4b6b;
+  box-shadow: 0 1px 1px #ff4b6b inset, 0 0 8px #ff4b6b;
+  outline: 0 none;
+}
